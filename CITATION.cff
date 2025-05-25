@@ -1,13 +1,13 @@
 cff-version: 1.2.0
-title: "Qompass AI Radar"
+title: "radar"
 message: "If you use this software, please cite it as below."
 authors:
   - family-names: "Porter"
     given-names: "Matthew A."
     orcid: "https://orcid.org/0000-0002-0302-4812"
     affiliation: "Qompass AI"
-version: "v2025-05-24"
-date-released: "2025-05-24"
+version: "v2025-05-25"
+date-released: "2025-05-25"
 repository-code: "https://github.com/qompassai/radar"
 license: "Q-CDA-1.0"
 keywords:
@@ -16,7 +16,7 @@ keywords:
   - Healthcare
   - Post-Quantum Cryptography
   - Quantum
-  - redteam
-  - nist
-  - qompassai
-abstract: "Qompass AI Radar"
+  - data science
+  - machine learning
+  - python
+abstract: "Qompass AI Risk Analysis Diagnostic Assessment Resolver aka "R.A.D.A.R""
