@@ -1,0 +1,123 @@
+# /qompassai/radar/.github/dependabot.yml
+# ------------------------------------
+# Copyright (C) 2025 Qompass AI, All rights reserved
+
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+      timezone: "America/Los_Angeles"
+    open-pull-requests-limit: 3
+    rebase-strategy: "auto"
+    commit-message:
+      prefix: "chore(deps)"
+      include: "scope"
+    labels:
+      - "dependencies"
+      - "github-actions"
+      - "automated"
+
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "tuesday"
+      time: "09:00"
+      timezone: "America/Los_Angeles"
+    open-pull-requests-limit: 10
+    rebase-strategy: "auto"
+    commit-message:
+      prefix: "chore(deps)"
+      include: "scope"
+    labels:
+      - "dependencies"
+      - "python"
+      - "automated"
+    ignore:
+      - dependency-name: "tensorflow"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "torch"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "torchvision"
+        update-types: ["version-update:semver-major"]
+
+  - package-ecosystem: "docker"
+    directory: "/docker"
+    schedule:
+      interval: "weekly"
+      day: "wednesday"
+      time: "09:00"
+      timezone: "America/Los_Angeles"
+    open-pull-requests-limit: 5
+    rebase-strategy: "auto"
+    commit-message:
+      prefix: "chore(deps)"
+      include: "scope"
+    labels:
+      - "dependencies"
+      - "docker"
+      - "automated"
+
+  - package-ecosystem: "npm"
+    directory: "/src/frontend"
+    schedule:
+      interval: "weekly"
+      day: "thursday"
+      time: "09:00"
+      timezone: "America/Los_Angeles"
+    open-pull-requests-limit: 8
+    rebase-strategy: "auto"
+    commit-message:
+      prefix: "chore(deps)"
+      include: "scope"
+    labels:
+      - "dependencies"
+      - "frontend"
+      - "npm"
+      - "automated"
+    versioning-strategy: "increase"
+    ignore:
+      - dependency-name: "vue"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "vite"
+        update-types: ["version-update:semver-major"]
+
+  - package-ecosystem: "pip"
+    directory: "/task-plugins"
+    schedule:
+      interval: "weekly"
+      day: "friday"
+      time: "09:00"
+      timezone: "America/Los_Angeles"
+    open-pull-requests-limit: 5
+    rebase-strategy: "auto"
+    commit-message:
+      prefix: "chore(deps)"
+      include: "scope"
+    labels:
+      - "dependencies"
+      - "task-plugins"
+      - "python"
+      - "automated"
+
+  - package-ecosystem: "pip"
+    directory: "/examples"
+    schedule:
+      interval: "monthly"
+      day: "first-monday"
+      time: "09:00"
+      timezone: "America/Los_Angeles"
+    open-pull-requests-limit: 3
+    rebase-strategy: "auto"
+    commit-message:
+      prefix: "chore(deps)"
+      include: "scope"
+    labels:
+      - "dependencies"
+      - "examples"
+      - "python"
+      - "automated"
