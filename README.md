@@ -41,7 +41,7 @@
  <div align="center">
   <p>Matthew A. Porter<br>
   Qompass AI, Spokane, WA</p>
-  
+
   <h3>Publications</h3>
   <p>
     <a href="https://orcid.org/0000-0002-0302-4812">
@@ -64,7 +64,7 @@
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-qompass-yellow?style=flat-square&logo=huggingface)](https://huggingface.co/qompass)
 [![Epic Games Developer](https://img.shields.io/badge/Epic_Games-Developer_Program-313131?style=for-the-badge&logo=epic-games&logoColor=white)](https://dev.epicgames.com/)
 </div>
-</details>
+
   
   <h3>Professional Profiles</h3>
   <p>
@@ -124,7 +124,7 @@
 
 <p><i>Funding helps us continue our research at the intersection of AI, healthcare, and education</i></p>
 </div>
-
+</details>
 
 
 <details id="FAQ">
@@ -202,7 +202,6 @@ Where:
 ### A: AI models ~=10 billion(10B) parameters and below. For comparison, OpenAI's GPT4o contains approximately 200B parameters.
 
 </details>
-
 
 <details id="Dual-License Notice">
   <summary><strong>What a Dual-License Means</strong></summary>
