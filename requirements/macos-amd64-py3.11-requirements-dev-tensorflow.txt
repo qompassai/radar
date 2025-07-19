@@ -797,7 +797,7 @@ rfc3986-validator==0.1.1
     # via
     #   jsonschema
     #   jupyter-events
-rich==13.7.1
+rich==14.0.0
     # via
     #   radar (pyproject.toml)
     #   keras
