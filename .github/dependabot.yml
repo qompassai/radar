@@ -108,7 +108,7 @@ updates:
     directory: "/examples"
     schedule:
       interval: "monthly"
-      day: "first-monday"
+      day: "monday"
       time: "09:00"
       timezone: "America/Los_Angeles"
     open-pull-requests-limit: 3
