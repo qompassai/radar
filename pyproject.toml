@@ -75,7 +75,7 @@ tf_keras_model = "radar.generics_plugins.estimator_predict.tf_keras_model"
 tf_keras_model = "radar.generics_plugins.fit_estimator.tf_keras_model"
 
 [project.optional-dependencies]
-cookiecutter = ["cookiecutter>=2.0.0,<2.2.0"]
+cookiecutter = ["cookiecutter>=2.0.0,<2.7.0"]
 mlflow-skinny = ["mlflow-skinny>=2"]
 mlflow-full = ["mlflow>=2"]
 examples = [
