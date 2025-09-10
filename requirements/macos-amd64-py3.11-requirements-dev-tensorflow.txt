@@ -408,7 +408,7 @@ jupyterlab-server==2.27.3
     # via
     #   jupyterlab
     #   notebook
-jupyterlab-widgets==3.0.11
+jupyterlab-widgets==3.0.15
     # via ipywidgets
 kaggle==1.6.17
     # via radar (pyproject.toml)
