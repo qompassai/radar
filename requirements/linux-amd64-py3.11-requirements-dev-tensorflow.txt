@@ -274,7 +274,7 @@ h5py==3.11.0
     #   tensorflow
 httpcore==1.0.5
     # via httpx
-httpx==0.27.0
+httpx==0.28.1
     # via jupyterlab
 idna==3.7
     # via
