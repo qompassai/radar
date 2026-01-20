@@ -611,7 +611,7 @@ pendulum==3.0.0
     # via prefect
 pexpect==4.9.0
     # via ipython
-pillow==10.4.0
+pillow==12.0.0
     # via
     #   radar (pyproject.toml)
     #   imageio
