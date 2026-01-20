@@ -645,7 +645,7 @@ pygments==2.18.0
     #   qtconsole
     #   rich
     #   sphinx
-pyparsing==3.1.2
+pyparsing==3.2.5
     # via
     #   radar
     #   radar (pyproject.toml)
