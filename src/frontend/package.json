@@ -17,7 +17,7 @@
     "@codemirror/lang-yaml": "^6.0.0",
     "@codemirror/lint": "^6.5.0",
     "@codemirror/theme-one-dark": "^6.1.2",
-    "@quasar/extras": "^1.16.9",
+    "@quasar/extras": "^1.17.0",
     "axios": "^1.6.7",
     "codemirror": "^6.0.1",
     "js-yaml": "^4.1.0",
