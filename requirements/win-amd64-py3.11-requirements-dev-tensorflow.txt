@@ -609,7 +609,7 @@ passlib==1.7.4
     #   radar (pyproject.toml)
 pendulum==3.0.0
     # via prefect
-pillow==10.4.0
+pillow==12.0.0
     # via
     #   radar (pyproject.toml)
     #   imageio
