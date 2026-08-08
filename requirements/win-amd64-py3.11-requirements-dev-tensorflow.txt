@@ -142,7 +142,7 @@ comm==0.2.2
     #   ipywidgets
 contourpy==1.2.1
     # via matplotlib
-cookiecutter==2.1.1
+cookiecutter==2.6.0
     # via
     #   radar (pyproject.toml)
     #   pytest-cookies
