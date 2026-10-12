@@ -429,3 +429,41 @@
         says data breach affected more than 100,000 people</a></p>
   </div>
 </details>
+
+## Development
+
+### Python unit tests
+
+The canonical route is tox (`tox -e py311-pytest`), which builds the
+project venv. With a Python environment that already has the project
+dependencies installed, the unit suite also runs directly — the package
+lives under `src/`, so it must be on the path:
+
+```bash
+PYTHONPATH=src python3 -m pytest tests/unit
+```
+
+Verified 2026-10-11 on primo's system Python: 675 tests pass. Three
+test files additionally need optional dependencies that a bare system
+Python may not have — `tests/unit/restapi` (needs `injector`),
+`tests/unit/pyplugs/test_plugins.py` and
+`tests/unit/task_plugins/radar_builtins/artifacts/test_mlflow.py`
+(need `mlflow`) — and are skipped by collection until those are
+installed. See `tests/TESTING_GUIDE.md` for how to write tests.
+
+### Frontend
+
+```bash
+cd src/frontend
+npm install
+npm run type-check   # vue-tsc, verified clean 2026-10-11
+```
+
+### SCIP index
+
+`index.scip` at the repo root is a generated artifact (gitignored).
+Regenerate with:
+
+```bash
+npx @sourcegraph/scip-python index
+```

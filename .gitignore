@@ -432,3 +432,4 @@ package-lock.json
 !tests/**/lib
 !src/**/tags
 !src/**/lib
+/index.scip
