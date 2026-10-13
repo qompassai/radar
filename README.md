@@ -35,9 +35,8 @@
 <a href="https://www.nist.gov/privacy-framework">
   <img src="https://img.shields.io/badge/Privacy_Framework-green?style=flat-square" alt="NIST Privacy Framework">
 </a>
-<a href="https://www.gnu.org/licenses/agpl-3.0"><img src="https://img.shields.io/badge/License-AGPL%20v3-blue.svg"
-    alt="License: AGPL v3"></a>
-<a href="./LICENSE-QCDA"><img src="https://img.shields.io/badge/license-Q--CDA-lightgrey.svg" alt="License: Q-CDA"></a>
+<a href="./LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License: Apache 2.0"></a>
+
 </p>
 
 <details>
@@ -467,3 +466,7 @@ Regenerate with:
 ```bash
 npx @sourcegraph/scip-python index
 ```
+
+## License
+
+This project is licensed under the [Apache License, Version 2.0](./LICENSE).
