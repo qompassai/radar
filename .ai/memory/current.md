@@ -18,6 +18,6 @@ under `nist/`).
 ## Standing rules
 
 - License files: LICENSE-QCDA is the repo's license (see repo root);
-  do not normalize without Matt's direction.
-- Code changes are pushed only under Matt's explicit direction
+  do not normalize without Owner's direction.
+- Code changes are pushed only under Owner's explicit direction
   (the 2026-10-11 overnight campaign authorization covered this pass).
